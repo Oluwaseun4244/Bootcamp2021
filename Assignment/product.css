@@ -1,0 +1,92 @@
+.wrapper {
+    margin: auto;
+    background-color: #f7f7f7;
+    width: 50%;
+    padding: 0px;
+    position: relative;
+}
+
+.item-amount {
+    width: 100%;
+    background: rgb(173, 173, 187);
+    padding: 10px
+}
+
+.left,
+.right,
+.middle {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.right {
+    float: right;
+}
+
+.middle {
+    position: absolute;
+}
+
+.form {
+    height: 350px;
+    width: 20%;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: #1c9794;
+    box-shadow: 0 0 10px;
+}
+
+.input {
+    margin-top: 23px;
+    text-align: center;
+}
+
+.input1 {
+    width: 60%;
+    height: 25px;
+}
+
+.uploaded-files {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
+
+.second {
+    width: 100%;
+}
+
+.img-house {
+    width: 70%;
+    height: 285px;
+    background-position: center;
+    margin-left: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+#item-span {
+    float: left;
+    font-weight: bold;
+}
+
+#amount-span {
+    padding-left: 70%;
+    font-weight: bold;
+}
+
+#total {
+    background-color: #32524954;
+}

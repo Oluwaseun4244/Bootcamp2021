@@ -1,0 +1,39 @@
+/* th, td {
+    border:1px solid black;
+    width:40%;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  table{
+      width: 50%;
+  } */
+
+h1 {
+    font-weight: unset;
+}
+
+.payslipbody {
+    border: 1px solid black;
+    position: relative;
+}
+
+.top-right1 {
+    position: absolute;
+    right: 44px;
+    top: 50px;
+}
+
+.top-right2 {
+    position: absolute;
+    right: 100px;
+    top: 32px;
+}
+
+h1 {
+    padding: 0px 50px;
+}
+
+.top-left {
+    padding: 0px 50px;
+}
