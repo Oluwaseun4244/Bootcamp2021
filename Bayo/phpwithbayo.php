@@ -102,3 +102,25 @@ foreach ($arrToBeLooped as $propOrIndex1 => $eachArray) {
         print_r(ucfirst($propOrIndex2) . ":" . $value . "<br>") ;
     }
 };
+
+
+//the below code works but I don't know how it manages to work when I removed the $result = 0;
+function compareTriplets($a, $b){
+    $result = 0;
+  foreach($a as $a1){
+  
+      if($result === 0){
+  
+      foreach($b as $b1){
+   
+   if($a1 == $b1){
+        $result = $a1;
+   }
+  }
+  }
+       
+}
+return $result;
+}
+
+echo compareTriplets([2,2,7,7,99], [1,7,5,6,9,99]);
